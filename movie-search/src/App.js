@@ -14,7 +14,7 @@ function App() {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNmU0NDVjMzA3MGUwZDQ1NDc0YjUzYTU0NzkwYWE3ZiIsInN1YiI6IjY0ODg3ZDMzZTI3MjYwMDBlOGMyOGVhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Her5CV6Ev19acJ29OTNC9q6l1eka8MCYmPnG_tVZS3k'
+      Authorization: `Bearer ${process.env.REACT_APP_BEARERTOKEN}`
     }
   };
   
