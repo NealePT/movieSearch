@@ -27,7 +27,6 @@ function App() {
     axios.get(`https://api.themoviedb.org/3/movie/157336?api_key=${apiKey}`)
       .then((res) => {
         setState({...state, movie: res.data})
-        // console.log(data)
       })
   }
 
@@ -35,7 +34,7 @@ function App() {
     <div className="App">
       <button onClick={() => {
         getMovie();
-        }}>CLICK</button>
+        }}>Generate Movie</button>
     <h2>{state.movie.title}</h2>
     </div>
   );
