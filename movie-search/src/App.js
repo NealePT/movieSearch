@@ -2,7 +2,7 @@ import './App.css';
 import axios from 'axios'
 import {useState} from 'react'
 // require('dotenv').config();
-
+import Movie from "./Components/Movie"
 
 function App() {
   let [state, setState] = useState({
@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="App">
+      <Movie />
       <button onClick={() => {
         getMovie();
         }}>Generate Movie</button>
