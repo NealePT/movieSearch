@@ -32,11 +32,13 @@ function App() {
 
   return (
     <div className="App">
-      <Movie />
       <button onClick={() => {
         getMovie();
-        }}>Generate Movie</button>
+      }}>Generate Movie</button>
     <h2>{state.movie.title}</h2>
+    <Movie 
+      state={state}
+    />
     </div>
   );
 }
