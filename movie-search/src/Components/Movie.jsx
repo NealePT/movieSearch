@@ -1,7 +1,7 @@
 export default function Movie(props) {
   return (
     <div className="Movie">
-      Movie
+      {props.state.title}
     </div>
   )
 };
