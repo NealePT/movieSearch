@@ -1,7 +1,6 @@
 import './App.css';
 import axios from 'axios'
 import {useState} from 'react'
-// require('dotenv').config();
 import Movie from "./Components/Movie"
 
 function App() {
