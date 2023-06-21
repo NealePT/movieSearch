@@ -3,7 +3,6 @@ export default function Movie(props) {
   return (
     <div className="Movie">
       {movie.title}
-      {movie.description}
     </div>
   )
 };
