@@ -34,7 +34,6 @@ function App() {
       <button onClick={() => {
         getMovie();
       }}>Generate Movie</button>
-    <h2>{state.movie.title}</h2>
     <Movie 
       state={state}
     />
